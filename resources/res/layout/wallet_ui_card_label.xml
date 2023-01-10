@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/ll_content" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="wrap_content" android:layout_height="22dp" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintTop_toTopOf="0">
+        <TextView android:textSize="14dp" android:textStyle="italic" android:textColor="#ffffff" android:id="@+id/tv_card" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false"/>
+        <ImageView android:id="@+id/iv_arrow" android:layout_width="10dp" android:layout_height="10dp" android:layout_marginLeft="2dp" android:src="@drawable/wallet_icon_card_label_arrow"/>
+    </LinearLayout>
+    <com.didi.payment.wallet_ui.label.WalletCardLabelBottomTriangle android:id="@+id/v_triangle" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintRight_toRightOf="@+id/ll_content" app:layout_constraintTop_toBottomOf="@+id/ll_content"/>
+</merge>

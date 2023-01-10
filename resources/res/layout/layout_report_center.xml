@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@drawable/traffic_report_window_bg_day" android:paddingLeft="30dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@+id/report_center_title" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="24sp" android:textStyle="bold" android:textColor="@color/black" android:id="@+id/tv_rp_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:text="@string/GRider_PassengerReports__xVfM" android:layout_alignParentStart="true"/>
+        <ImageView android:id="@+id/iv_rp_close" android:layout_width="30dp" android:layout_height="30dp" android:layout_marginTop="10dp" android:layout_marginRight="10dp" android:src="@drawable/icon_traffic_report_close" android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/rv_report" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:layout_marginRight="30dp" android:layout_marginBottom="34dp"/>
+    <RelativeLayout android:layout_gravity="center" android:id="@+id/layout_my_contribution" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="14sp" android:textColor="@color/traffic_report_gray" android:id="@+id/tv_my_contribution" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="26dp" android:text="@string/GRider_PassengerReports_VPXY_rdOp" android:layout_centerVertical="true"/>
+        <ImageView android:id="@+id/report_item_arrow" android:paddingLeft="4dp" android:paddingTop="2dp" android:visibility="visible" android:layout_width="12dp" android:layout_height="12dp" android:layout_marginRight="15dp" android:src="@drawable/traffic_report_arrow_right" android:layout_toRightOf="@+id/tv_my_contribution" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="34dp">
+        <View android:id="@+id/coupon_div" android:background="@color/lego_color_10_0A121A" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+        <ImageView android:id="@+id/coupon_img" android:layout_width="24dp" android:layout_height="24dp" android:layout_centerVertical="true" android:layout_marginEnd="6dp"/>
+        <TextView android:textSize="@dimen/lego_dimen_12sp" android:textStyle="bold" android:id="@+id/coupon_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_centerVertical="true" android:layout_toEndOf="@+id/coupon_img"/>
+        <View android:id="@+id/dot_view" android:background="@drawable/g_red_dot" android:layout_width="6dp" android:layout_height="6dp" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+</merge>

@@ -1,0 +1,97 @@
+package com.didi.payment.kycservice.kyc.fragment;
+
+import kotlin.Metadata;
+import kotlin.Unit;
+import kotlin.jvm.functions.Function0;
+import kotlin.jvm.internal.Lambda;
+
+@Metadata(mo148867d1 = {"\u0000\u0006\n\u0000\n\u0002\u0010\u0002\u0010\u0000\u001a\u00020\u0001H\n"}, mo148868d2 = {"<anonymous>", ""}, mo148869k = 3, mo148870mv = {1, 5, 1}, mo148872xi = 48)
+/* compiled from: StepBaseInfoFragment.kt */
+final class StepBaseInfoFragment$initListener$6 extends Lambda implements Function0<Unit> {
+    final /* synthetic */ String $phone;
+    final /* synthetic */ StepBaseInfoFragment this$0;
+
+    /* JADX INFO: super call moved to the top of the method (can break code semantics) */
+    StepBaseInfoFragment$initListener$6(StepBaseInfoFragment stepBaseInfoFragment, String str) {
+        super(0);
+        this.this$0 = stepBaseInfoFragment;
+        this.$phone = str;
+    }
+
+    /* JADX WARNING: Removed duplicated region for block: B:20:0x005f  */
+    /* Code decompiled incorrectly, please refer to instructions dump. */
+    public final void invoke() {
+        /*
+            r7 = this;
+            com.didi.payment.kycservice.kyc.fragment.StepBaseInfoFragment r0 = r7.this$0
+            boolean r0 = r0.m25393i()
+            r1 = 0
+            java.lang.String r2 = "mNameInput"
+            if (r0 != 0) goto L_0x0047
+            com.didi.payment.kycservice.kyc.fragment.StepBaseInfoFragment r0 = r7.this$0
+            com.didi.payment.kycservice.widget.NewPixInputView r0 = r0.f33349e
+            if (r0 != 0) goto L_0x0017
+            kotlin.jvm.internal.Intrinsics.throwUninitializedPropertyAccessException(r2)
+            r0 = r1
+        L_0x0017:
+            java.lang.String r0 = r0.getInputStr()
+            java.lang.CharSequence r0 = (java.lang.CharSequence) r0
+            int r0 = r0.length()
+            if (r0 != 0) goto L_0x0025
+            r0 = 1
+            goto L_0x0026
+        L_0x0025:
+            r0 = 0
+        L_0x0026:
+            if (r0 == 0) goto L_0x0029
+            goto L_0x0047
+        L_0x0029:
+            com.didi.payment.kycservice.kyc.fragment.StepBaseInfoFragment r0 = r7.this$0
+            com.didi.payment.kycservice.widget.NewPixInputView r0 = r0.f33349e
+            if (r0 != 0) goto L_0x0035
+            kotlin.jvm.internal.Intrinsics.throwUninitializedPropertyAccessException(r2)
+            r0 = r1
+        L_0x0035:
+            com.didi.payment.kycservice.kyc.fragment.StepBaseInfoFragment r3 = r7.this$0
+            r4 = 2131951763(0x7f130093, float:1.953995E38)
+            java.lang.String r3 = r3.getString(r4)
+            java.lang.String r4 = "getString(R.string.Finte…zation_Names_should_WgxS)"
+            kotlin.jvm.internal.Intrinsics.checkNotNullExpressionValue(r3, r4)
+            r0.showErrorInfo(r3)
+            goto L_0x0056
+        L_0x0047:
+            com.didi.payment.kycservice.kyc.fragment.StepBaseInfoFragment r0 = r7.this$0
+            com.didi.payment.kycservice.widget.NewPixInputView r0 = r0.f33349e
+            if (r0 != 0) goto L_0x0053
+            kotlin.jvm.internal.Intrinsics.throwUninitializedPropertyAccessException(r2)
+            r0 = r1
+        L_0x0053:
+            r0.hideErrorInfo()
+        L_0x0056:
+            com.didi.payment.kycservice.kyc.fragment.StepBaseInfoFragment r0 = r7.this$0
+            android.content.Context r0 = r0.getContext()
+            if (r0 != 0) goto L_0x005f
+            goto L_0x007c
+        L_0x005f:
+            java.lang.String r3 = r7.$phone
+            com.didi.payment.kycservice.kyc.fragment.StepBaseInfoFragment r4 = r7.this$0
+            com.didi.payment.kycservice.utils.KycSPUtils$Companion r5 = com.didi.payment.kycservice.utils.KycSPUtils.Companion
+            java.lang.String r6 = "phone"
+            kotlin.jvm.internal.Intrinsics.checkNotNullExpressionValue(r3, r6)
+            com.didi.payment.kycservice.widget.NewPixInputView r4 = r4.f33349e
+            if (r4 != 0) goto L_0x0074
+            kotlin.jvm.internal.Intrinsics.throwUninitializedPropertyAccessException(r2)
+            goto L_0x0075
+        L_0x0074:
+            r1 = r4
+        L_0x0075:
+            java.lang.String r1 = r1.getInputStr()
+            r5.putName(r0, r3, r1)
+        L_0x007c:
+            com.didi.payment.kycservice.kyc.fragment.StepBaseInfoFragment r0 = r7.this$0
+            r0.m25390f()
+            return
+        */
+        throw new UnsupportedOperationException("Method not decompiled: com.didi.payment.kycservice.kyc.fragment.StepBaseInfoFragment$initListener$6.invoke():void");
+    }
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/report_detail_item_linear_layout" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@+id/layout_item" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="25dp">
+        <TextView android:textSize="16sp" android:textColor="@color/black" android:id="@+id/report_item_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="13dp" android:layout_marginBottom="13dp" android:text="@string/GRider_PassengerReports__Ffus"/>
+        <RadioButton android:id="@+id/report_item_sel" android:background="@drawable/report_detail_item_select_button" android:clickable="false" android:layout_width="16dp" android:layout_height="16dp" android:layout_marginTop="15dp" android:layout_marginRight="25dp" android:layout_marginBottom="15dp" android:button="@null" android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+</LinearLayout>

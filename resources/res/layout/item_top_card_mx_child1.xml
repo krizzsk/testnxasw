@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@+id/gl_1" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="0.076"/>
+    <ImageView android:id="@+id/iv_itemHomeTopCardViewMxAddBank" android:layout_width="37dp" android:layout_height="37dp" android:src="@drawable/icon_top_card_bank_card" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintStart_toStartOf="@+id/gl_1" app:layout_constraintTop_toTopOf="0"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="15dp" app:layout_constraintBottom_toBottomOf="@+id/iv_itemHomeTopCardViewMxAddBank" app:layout_constraintStart_toEndOf="@+id/iv_itemHomeTopCardViewMxAddBank" app:layout_constraintTop_toTopOf="@+id/iv_itemHomeTopCardViewMxAddBank">
+        <TextView android:textSize="22sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@+id/tv_topCardBinkCardAddBank" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+        <TextView android:textSize="14sp" android:textStyle="bold" android:textColor="#ff3fc790" android:id="@+id/tv_topCardBinkCardAddBankTips" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

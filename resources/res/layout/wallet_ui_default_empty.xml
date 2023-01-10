@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/iv_image" android:layout_width="126dp" android:layout_height="126dp" android:scaleType="fitXY"/>
+    <TextView android:textSize="18dp" android:textStyle="bold" android:textColor="#000000" android:id="@+id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp"/>
+    <TextView android:textSize="14dp" android:textColor="#000000" android:ellipsize="end" android:gravity="center" android:id="@+id/tv_sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:maxLines="2"/>
+    <com.didi.payment.wallet_ui.WalletButton android:id="@+id/btn_first" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30dp" app:btnLevel="1" app:btnType="2" app:widthType="2"/>
+    <com.didi.payment.wallet_ui.WalletButton android:id="@+id/btn_second" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" app:btnLevel="2" app:btnType="2" app:widthType="2"/>
+</merge>

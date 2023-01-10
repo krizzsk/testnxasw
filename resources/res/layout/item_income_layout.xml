@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/wallet_dp_60">
+    <TextView android:textSize="@dimen/wallet_sp_16" android:textColor="@android:color/black" android:id="@+id/income_tv" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+    <CheckBox android:id="@+id/checkbox" android:background="@drawable/kyc_income_checkbox" android:padding="10dp" android:clickable="false" android:layout_width="@dimen/wallet_dp_20" android:layout_height="@dimen/wallet_dp_20" android:checked="false" android:button="@null"/>
+</LinearLayout>

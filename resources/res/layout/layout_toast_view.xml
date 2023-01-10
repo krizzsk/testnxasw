@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/layoutRoot" android:background="@drawable/traffic_report_toast_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="110dp">
+    <LinearLayout android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@+id/ll_icon_root" android:layout_centerVertical="true" android:layout_toEndOf="@+id/ll_icon_root">
+        <TextView android:textSize="14sp" android:textColor="@color/white" android:ellipsize="end" android:id="@+id/tv_msg" android:paddingLeft="10dp" android:paddingTop="16dp" android:paddingRight="16dp" android:paddingBottom="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:maxEms="12" android:includeFontPadding="false" android:lineSpacingExtra="5dp" android:paddingStart="10dp" android:paddingEnd="16dp"/>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/ll_icon_root" android:paddingTop="13dp" android:paddingBottom="13dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="17dp" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_marginStart="17dp" android:layout_alignParentStart="true">
+        <ImageView android:layout_gravity="center" android:id="@+id/iv_icon" android:focusableInTouchMode="false" android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/icon_toast_success"/>
+    </LinearLayout>
+</RelativeLayout>

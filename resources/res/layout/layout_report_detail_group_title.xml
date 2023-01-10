@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:textSize="14sp" android:textColor="@color/traffic_report_gray" android:gravity="left" android:id="@+id/title" android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="17dp" android:layout_marginLeft="30dp" android:layout_marginBottom="10dp"/>

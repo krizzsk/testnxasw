@@ -1,0 +1,27 @@
+{
+    "Global_Rider_In_trip_recording_PAX_I_suggest_Qznb": "Por seguridad, te sugerimos grabar el audio de tu viaje.",
+    "Global_Rider_In_trip_recording_PAX_Landing_Page_LYMo": "He leído y aceptado los términos de la función de grabación de audio del viaje. Tanto el socio conductor como el usuario pueden comenzar a grabar el audio del viaje si no se sienten seguros. No se notificará a la otra parte sobre esta grabación durante el viaje.\n\nEl audio se encriptará y subirá al servidor interno de DiDi en tiempo real. La grabación se detendrá automáticamente cuando el viaje finalice.\n\nSubir el audio requiere el uso de datos móviles. La calidad del audio depende de tu dispositivo y factores externos.",
+    "Global_Rider_In_trip_recording_PAX_open_agree_lLkP": "Aceptar y comenzar      ",
+    "Global_Rider_In_trip_recording_PAX_privacy_clause_bJLG": "Política de privacidad de la función de grabación de audio del viaje",
+    "Global_Rider_In_trip_recording_PAX_Recording_MptL": "Grabar audio del viaje",
+    "Global_Rider_In_trip_recording_PAX_Recording_nPQA": "Grabando",
+    "Global_Rider_In_trip_recording_PAX_recording_opening_tUvQ": "Puedes comenzar a grabar si no te sientes seguro(a)",
+    "Global_Rider_In_trip_recording_PAX_recording_protecting_XANR": "Grabación de audio activada",
+    "Global_Rider_In_trip_recording_PAX_recording_trip_xMvu": "Esta función solo está disponible durante los viajes",
+    "GRider_Global_Under_the_hmOG": "Con el botón de Emergencia, puedes contactarte con la Línea de emergencias Nacional o nuestra central de emergencias. Presiona este botón en situaciones de riesgo o en caso de algún accidente. Aquí encontrarás la información de tu ubicación en tiempo real. Puedes compartirla con las autoridades cuando las contactes.",
+    "Global_Rider_In_trip_recording_PAX_microphone_audio_LWJc": "Para grabar audio, permite que {brand_name} tenga acceso a tu micrófono.",
+    "Global_Rider_In_trip_recording_PAX_recording_ending_GGVw": "Grabación completada",
+    "Global_Rider_In_trip_recording_PAX_recording_opening_uMlc": "La grabación de audio está lista para comenzar",
+    "Global_Rider_In_trip_recording_PAX_Recording_TmOU": "Grabando",
+
+    "sf_emergency_assistance_main_title": "Asistente de emergencia",
+    "sf_emergency_assistance_latest_trip_info": "El botón de seguridad es un canal para ponerse en contacto con las autoridades, si te encuentras en una situación en la que te sientas inseguro, estés lesionado o una tengas una emergencia. Una vez que se presiona el botón de seguridad, el Centro de Reacción de DiDi recibe la información de tu viaje y comienza a trabajar en el caso para apoyar si es necesario.",
+    "sf_emergency_assistance_uploading_location": "Cargando tu ubicación",
+    "sf_emergency_assistance_call": "Llama al {num}",
+    "sf_emergency_assistance_stop_uploading_location": "Estoy a salvo, dejar de compartir.",
+    "sf_emergency_assistance_call_again_tips": "Da clic aquí para llamar de nuevo al {num}",
+    "sf_emergency_assistance_stop_title": "¿Estás seguro que deseas dejar de compartir?",
+    "sf_emergency_assistance_stop_message": "Al dejar de compartir se terminará tu proceso de emergencia",
+    "sf_emergency_assistance_no_stop_btn": "No",
+    "sf_emergency_assistance_confirm_stop_btn": "Sí"
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/traffic_history_bg" android:fitsSystemWindows="false" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.google.android.material.appbar.AppBarLayout android:theme="@style/Theme.AppCompat.NoActionBar" android:orientation="vertical" android:id="@+id/cb_bar_layout" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="wrap_content" app:elevation="0dp" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+        <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@+id/cb_ctbl" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="wrap_content" app:collapsedTitleGravity="800003" app:contentScrim="?attr/colorPrimary" app:layout_scrollFlags="0" app:statusBarScrim="?attr/colorPrimary">
+            <LinearLayout android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_collapseMode="2" app:layout_scrollFlags="0">
+                <ImageView android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/contribution_history_bg" android:scaleType="fitXY"/>
+            </LinearLayout>
+            <com.didi.map.global.component.trafficreport.view.ReportDetailTitle android:id="@+id/report_detail_title" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_scrollFlags="0"/>
+            <androidx.appcompat.widget.Toolbar android:id="@+id/toolbar" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize" app:layout_collapseMode="1" app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+                <ImageView android:layout_gravity="start" android:id="@+id/cb_iv_back" android:layout_width="23dp" android:layout_height="23dp" android:src="@drawable/icon_traffic_report_back" android:scaleType="center"/>
+            </androidx.appcompat.widget.Toolbar>
+            <RelativeLayout android:id="@+id/contribution_header_wrap" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="20dp" android:textStyle="bold" android:textColor="@color/white" android:id="@+id/contribution_description_header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:layout_marginTop="74dp" android:layout_marginRight="30dp" android:text="@string/GRider_PassengerReports_qqeL_eavD" android:textFontWeight="700"/>
+                <com.didi.map.global.component.trafficreport.view.history.ContributionCountItemView android:id="@+id/item_view_help_count" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:layout_marginTop="15dp" android:layout_below="@+id/contribution_description_header" android:layout_alignParentLeft="true" app:layout_collapseMode="2"/>
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:layout_below="@+id/item_view_help_count" app:layout_scrollFlags="0">
+                    <com.didi.map.global.component.trafficreport.view.history.ContributionCountItemView android:id="@+id/item_view_event" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:layout_weight="1"/>
+                    <com.didi.map.global.component.trafficreport.view.history.ContributionCountItemView android:id="@+id/item_view_report" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+                </LinearLayout>
+            </RelativeLayout>
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <com.didi.map.global.component.trafficreport.view.history.LoadMoreRecyclerView android:id="@+id/report_contributions" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0dp" app:layout_behavior="@string/appbar_scrolling_view_behavior" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintTop_toBottomOf="@+id/cb_bar_layout"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/layout_no_data" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@+id/cb_bar_layout">
+        <ImageView android:layout_gravity="center" android:id="@+id/cb_iv_no_data" android:paddingTop="100dp" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/report_history_no_data"/>
+        <TextView android:layout_gravity="center" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/GRider_PassengerReports_jsnO_vpKk" android:textAlignment="center"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/layout_retry" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@+id/cb_bar_layout">
+        <com.didi.map.global.component.trafficreport.view.ReportErrorView android:layout_gravity="center_vertical" android:id="@+id/report_history_error" android:paddingTop="100dp" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

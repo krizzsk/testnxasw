@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/report_item_linear_layout" android:background="@drawable/report_item_bg_grey" android:layout_width="match_parent" android:layout_height="45dp">
+    <RelativeLayout android:id="@+id/layout_item" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp">
+        <ImageView android:layout_gravity="center" android:id="@+id/report_icon" android:layout_width="45dp" android:layout_height="45dp" android:src="@drawable/map_error"/>
+        <TextView android:textSize="16sp" android:textColor="@color/black" android:id="@+id/report_item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="map Error" android:layout_toRightOf="@+id/report_icon" android:layout_centerVertical="true"/>
+        <ImageView android:id="@+id/report_item_arrow" android:paddingLeft="4dp" android:paddingTop="2dp" android:visibility="visible" android:layout_width="12dp" android:layout_height="12dp" android:layout_marginRight="15dp" android:src="@drawable/traffic_report_arrow_right" android:layout_centerVertical="true" android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+</LinearLayout>

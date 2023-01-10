@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/report_item_linear_layout" android:background="@color/white" android:layout_width="match_parent" android:layout_height="100dp" android:layout_marginTop="10dp">
+    <RelativeLayout android:id="@+id/layout_item" android:layout_width="match_parent" android:layout_height="100dp">
+        <EditText android:textSize="14sp" android:id="@+id/text_remark" android:background="@drawable/report_detail_remark_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:layout_marginTop="20dp" android:layout_marginRight="30dp" android:layout_marginBottom="20dp" android:hint="@string/GRider_PassengerReports__pXKM" android:maxLines="3" android:maxLength="120" android:textAlignment="textStart"/>
+    </RelativeLayout>
+</LinearLayout>
